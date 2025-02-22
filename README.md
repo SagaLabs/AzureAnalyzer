@@ -82,3 +82,8 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
 [+] Name: Test-RG-Name | ID: /subscriptions/string/resourceGroups/RGName
 
 ```
+
+### Show Resource Level Logging
+```powershell
+> Get-AzResourceGroupLogging
+```
