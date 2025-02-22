@@ -84,6 +84,7 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
 ```
 
 ### Show Resource Level Logging
+*note that this also logs to a log file called diagnosticsettings.csv in the output folder*
 ```powershell
 > Get-AzResourceGroupLogging
 ```
