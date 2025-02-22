@@ -18,7 +18,7 @@ function Get-AzADRoles {
     $roles = Get-MgRoleManagementDirectoryRoleAssignment -Filter "PrincipalId eq '$($User.Id)'"
     
     if ($roles) {
-        Write-Host "`n📌 Your Azure AD Directory Roles:" -ForegroundColor Yellow
+        Write-Host "`n📌 Your Azure Entra ID Directory Roles:" -ForegroundColor Yellow
         
         # Retrieve all role definitions
         $roleDefinitions = Get-MgRoleManagementDirectoryRoleDefinition
@@ -34,6 +34,6 @@ function Get-AzADRoles {
             }
         }
     } else {
-        Write-Host "❌ No Azure AD roles assigned to this account." -ForegroundColor Red
+        Write-Host "❌ No Azure Entra ID roles assigned to this account." -ForegroundColor Red
     }
 }
