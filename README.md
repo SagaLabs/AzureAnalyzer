@@ -17,7 +17,6 @@
 
 ## Prerequisites
 
-- [Azure CLI](https://docs.microsoft.com/en-us/cli/azure/install-azure-cli)
 - PowerShell
 
 **The follwing PowerShell modules:**

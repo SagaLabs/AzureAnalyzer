@@ -9,7 +9,7 @@ function Get-AzResourceGroups {
     Write-Host "`n📌 This tenant have the following Resource Groups: " -ForegroundColor Yellow
 
     # Create an empty array to store the ResourceIds
-    $ResourceIds = @()
+    $resourceGroupNames = @()
 
     # Loop through each resource group and format the output
     $ResourceGroups | ForEach-Object {
@@ -20,8 +20,8 @@ function Get-AzResourceGroups {
         Write-Host "[+] Name: $resourceGroupName | ID: $resourceId" -ForegroundColor Green
 
         # Add the ResourceId to the array
-        $ResourceIds += $resourceId
+        $resourceGroupNames += $resourceGroupName
     }
 
-    return $resourceIds
+    return $resourceGroupNames
 }
