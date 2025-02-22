@@ -2,11 +2,7 @@ function Get-AzPermissions {
     [CmdletBinding()]
     param ()
 
-    # Ensure user is logged in
-    if (-not (Get-AzContext)) {
-        Write-Host "🔹 Not logged in. Running Connect-AzAccount..." -ForegroundColor Yellow
-        Connect-AzAccount
-    }
+  
 
     # Get current user
     $User = (Get-AzContext).Account

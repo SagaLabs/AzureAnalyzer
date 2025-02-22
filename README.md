@@ -73,3 +73,13 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
  - Global Administrator (GUID)
  - Global Secure Access Administrator (GUID)
 ```
+
+### Show All Resource Groups
+```powershell
+> Get-AzResourceGroups
+
+📌 This tenant have the following Resource Groups:
+[+] Name: SagaLabs-Test-Container | ID: /subscriptions/string/resourceGroups/RGName
+[+] Name: Test-RG-Name | ID: /subscriptions/string/resourceGroups/RGName
+
+```

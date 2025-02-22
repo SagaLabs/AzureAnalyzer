@@ -2,14 +2,6 @@ function Get-AzADRoles {
     [CmdletBinding()]
     param ()
 
-    # Ensure connected to Microsoft Graph
-    try {
-        Connect-MgGraph -Scopes "RoleManagement.Read.Directory", "User.Read.All" -NoWelcome
-    } catch {
-        Write-Host "❌ Failed to connect to Microsoft Graph. Ensure you have the correct permissions." -ForegroundColor Red
-        return
-    }
-
     # Get current user
     $User = Get-MgUser -UserId (Get-AzContext).Account.Id
     Write-Host "🔹 Logged in as: $($User.DisplayName) ($($User.Id))" -ForegroundColor Cyan
