@@ -42,6 +42,12 @@ Import-Module .\AzureAnalyzer.psm1
 
 # Functions
 
+### List all available functions
+
+```powershell
+> Get-Command -Module AzureLogAnalyzer
+```
+
 ### Show current role assignment in Entra ID
 ```powershell 
 > Get-AzEntraIDRoles
