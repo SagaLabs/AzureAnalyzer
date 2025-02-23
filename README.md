@@ -35,7 +35,7 @@ Install-Module Microsoft.Graph -Scope CurrentUser
 ## Installation
 To start using the utility simply git clone the repo and run <br>
 ```powershell
-Import-Module .\AzureAnalyzer.psm1
+> Import-Module .\AzureAnalyzer.psm1
 ✅ Azure Analyzer v1.0.0 loaded successfully! 
 [@] Developed by Christian Henriksen (Guzzy) - Learn more at https://github.com/SagaLabs/AzureAnalyzer
 ```
