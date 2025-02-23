@@ -10,3 +10,4 @@
 - Azure Policy Compliance Status
 - Admin content to enterprise application
 - Display owner or contributor to Get-AzResourceGroups
+- Display all administrative accounts
