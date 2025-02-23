@@ -1,7 +1,7 @@
 function Get-AzLicenses {
     [CmdletBinding()]
     param ()
-    Write-Host "`n📊 Gathering Azure Licenses..." -ForegroundColor Yellow
+    Write-Host "`n📊 Gathering Licenses..." -ForegroundColor Yellow
 
     Get-MgUser | ForEach-Object {
         $userLicenses = Get-MgUserLicenseDetail -UserId $_.Id
