@@ -7,8 +7,8 @@
 <br>
 <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white"/>
-<p>
-    The purpose of this suite is to be used to audit an Azure tenant for existing log configuration. 
+<p style="text-align:left">
+    Azure Log Analyzer is a PowerShell tool designed to help you audit and analyze your Azure tenant. It provides a set of functions to for example quickly gather key data on resource groups, subscriptions, roles, policies, virtual machines, OAuth apps, and more. You can use it to check logging configurations, track administrative accounts, and identify security concerns like public storage containers. It’s a simple but powerful way to monitor and maintain your Azure environment.
 </p>
 </div>
 
@@ -44,7 +44,7 @@ Import-Module .\AzureLogAnalyzer.psm1
 
 ### Show current role assignment in Entra ID
 ```powershell 
-> Get-AzADRoles
+> Get-AzEntraIDRoles
 
 🔹 Logged in as: John Doe (UUID)
 
@@ -104,6 +104,27 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
 
 ```powershell
 > Get-AzStatistics
+
+📊 Gathering Azure Statistics...
+🔹 Total Resource Groups: 21
+🔑 Total Subscriptions: 3
+🔹 Management Groups:
+   - Tenant Root Group (ID)
+🔹 Total Policies: 3505
+🔹 Total Administrative Accounts: 6
+🔹 Total Storage Containers: 5
+❌ Public Storage Containers Found: 5
+   - azure-webjobs-hosts in
+   - test in
+   - test1 in
+   - test2 in
+   - cool-test in
+💻 Total number of Virtual Machines: 9
+🔌 Total number of running VMs: 0
+🔹 Total number of OAuth Applications: 11
+🔹 Total number of Service Principals: 514
+🔹 Total number of Public IPs: 4
+
 ```
 
 
@@ -118,3 +139,7 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
 ```powershell
 > Get-AzApplicationInfo
 ```
+
+
+# Contribute
+This tool has been made as a simple audit tool, and we would like some feedback on it. We have a list of features that could be cool in the todo.md file, please add what you would like. :-) 

@@ -1,3 +1,17 @@
+<#
+.SYNOPSIS
+   This function returns a list of resource groups and if they have logging enabled via. diagnostic settings.
+
+.DESCRIPTION
+   This function returns a list of resource groups and if they have logging enabled via. diagnostic settings.
+   The function outputs a csv log to the following location: /output/diagnosticsettings.csv
+   Part of the AzureLogAnalyzer
+.EXAMPLE
+   An example of how to call the function
+   For example:
+     Get-AzResourceGroupLogging
+
+#>
 function Get-AzResourceGroupLogging {
     [CmdletBinding()]
     param ()

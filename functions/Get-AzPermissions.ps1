@@ -1,3 +1,16 @@
+<#
+.SYNOPSIS
+   This function returns current Azure RBAC role assignments for the current context user. 
+
+.DESCRIPTION
+   This function returns current Azure RBAC role assignments for the current context user. 
+   Part of the AzureLogAnalyzer
+.EXAMPLE
+   An example of how to call the function
+   For example:
+     Get-AzPermissions
+
+#>
 function Get-AzPermissions {
     [CmdletBinding()]
     param ()

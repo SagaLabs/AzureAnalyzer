@@ -1,3 +1,16 @@
+<#
+.SYNOPSIS
+   This function returns a list of resource groups in the tenant.
+
+.DESCRIPTION
+   This function returns a list of resource groups in the tenant.
+   Part of the AzureLogAnalyzer
+.EXAMPLE
+   An example of how to call the function
+   For example:
+     Get-AzResourceGroupLogging
+
+#>
 function Get-AzResourceGroups {
     [CmdletBinding()]
     param ()

@@ -1,4 +1,17 @@
-function Get-AzADRoles {
+<#
+.SYNOPSIS
+   This function returns the EntraID roles associated with the current context user.
+
+.DESCRIPTION
+   This function returns the EntraID roles associated with the current context user.
+   Part of the AzureLogAnalyzer
+.EXAMPLE
+   An example of how to call the function
+   For example:
+     Get-AzEntraIDRoles
+
+#>
+function Get-AzEntraIDRoles {
     [CmdletBinding()]
     param ()
 

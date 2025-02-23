@@ -1,3 +1,30 @@
+<#
+.SYNOPSIS
+   This function returns a common list of statitics for an azure tenant
+
+.DESCRIPTION
+   This function returns a common list of statitics for an azure tenant
+   Part of the AzureLogAnalyzer
+
+Gathers the following:
+
+    Total amount of Resource Groups
+    Total Subscriptions
+    List all management groups if they are used
+    Total amount of policies
+    Total Administrative accounts
+    Total amount of storage containers, public will be marked as red
+    Total amount of VMs
+    Total amount of OAuth applications
+    Total amount of public IPs
+
+.EXAMPLE
+   An example of how to call the function
+   For example:
+     Get-AzStatistics
+
+#>
+
 function Get-AzStatistics {
     [CmdletBinding()]
     param ()
