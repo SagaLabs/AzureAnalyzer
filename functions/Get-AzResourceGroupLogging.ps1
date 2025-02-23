@@ -61,7 +61,7 @@ function Get-AzResourceGroupLogging {
                 else {
                     Write-Host "❌ No diagnostic settings found for Resource '$($ResourceId)'" -ForegroundColor Red
                     # Log to CSV (ResourceId, ResourceType, DiagnosticSettingStatus)
-                    $logMessage = "$ResourceId,$resourceType,No Settings"
+                    $logMessage = "$ResourceId,$resourceType,Not Enabled"
                     Add-Content -Path $logFilePath -Value $logMessage
                 }
             } else {

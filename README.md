@@ -88,3 +88,32 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
 ```powershell
 > Get-AzResourceGroupLogging
 ```
+
+### Show statistics of tenant
+**Gathers the following:**
+- Total amount of Resource Groups
+- Total Subscriptions
+- List all management groups if they are used
+- Total amount of policies
+- Total Administrative accounts
+- Total amount of storage containers, public will be marked as red
+- Total amount of VMs
+- Total amount of OAuth applications
+- Total amount of public IPs
+
+```powershell
+> Get-AzStatistics
+```
+
+
+### Show all licenses in the tenant
+
+```powershell
+> Get-AzLicenses
+```
+
+### Show Applications
+*Shows both non-OAuth applications and OAuth*
+```powershell
+> Get-AzApplicationInfo
+```

@@ -23,5 +23,5 @@ function Get-AzResourceGroups {
         $resourceGroupNames += $resourceGroupName
     }
 
-    return $resourceGroupNames
+   
 }
