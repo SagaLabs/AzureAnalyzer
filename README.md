@@ -142,4 +142,4 @@ John Doe Owner                     /providers/Microsoft.Management/managementGro
 
 
 # Contribute
-This tool has been made as a simple audit tool, and we would like some feedback on it. We have a list of features that could be cool in the todo.md file, please add what you would like. :-) 
+This tool has been made as a simple audit tool, and we would like some feedback on it. Please use discussions or issues for submitting feature requests. 

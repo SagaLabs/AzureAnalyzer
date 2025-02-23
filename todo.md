@@ -11,3 +11,4 @@
 - Admin content to enterprise application
 - Display owner or contributor to Get-AzResourceGroups
 - Display all administrative accounts
+- Display public IPs and their association
