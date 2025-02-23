@@ -31,5 +31,5 @@ function Get-AzPermissions {
     }
 
     # Get Azure AD Roles using Microsoft Graph
-    Get-AzADRoles
+    Get-AzEntraIDRoles
 }
