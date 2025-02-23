@@ -1,14 +1,14 @@
 <div align="center">
 <img src="./src/logo.png" style="max-width:30%">
 <h1>
-☁ Azure Log Analyzer
+☁ Azure Analyzer
 </h1>
 <a href="/LICENSE"><img src="https://img.shields.io/badge/License-GPLv3-blue.svg?longCache=true&style=flat-square" alt="License"></a>
 <br>
 <img src="https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white"/>
 <img src="https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white"/>
 <p style="text-align:left">
-    Azure Log Analyzer is a PowerShell tool designed to help you audit and analyze your Azure tenant. It provides a set of functions to for example quickly gather key data on resource groups, subscriptions, roles, policies, virtual machines, OAuth apps, and more. You can use it to check logging configurations, track administrative accounts, and identify security concerns like public storage containers. It’s a simple but powerful way to monitor and maintain your Azure environment.
+    Azure Analyzer is a PowerShell tool designed to help you audit and analyze your Azure tenant. It provides a set of functions to for example quickly gather key data on resource groups, subscriptions, roles, policies, virtual machines, OAuth apps, and more. You can use it to check logging configurations, track administrative accounts, and identify security concerns like public storage containers. It’s a simple but powerful way to monitor and maintain your Azure environment.
 </p>
 </div>
 
