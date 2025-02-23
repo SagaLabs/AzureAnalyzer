@@ -84,7 +84,7 @@ function Get-AzStatistics {
                 }
             }
         }
-        Write-Host "🔹 Total Storage Containers: $totalContainers" -ForegroundColor Cyan
+        Write-Host "🪣 Total Storage Containers: $totalContainers" -ForegroundColor Cyan
 
         $publicContainerCount = $publicContainers.Count
         
