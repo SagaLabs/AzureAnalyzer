@@ -1,6 +1,6 @@
 # Import functions dynamically
-Write-Host "[@] Developed by Christian Henriksen (Guzzy) - Learn more at https://github.com/SagaLabs/AzureLogAnalyzer" -ForegroundColor Cyan
-Write-Host "✅ AzureLogAnalyzer v1.0.0 loaded successfully! Use Get-Help AzureLogAnalyzer for usage." -ForegroundColor Green
+Write-Host "[@] Developed by Christian Henriksen (Guzzy) - Learn more at https://github.com/SagaLabs/Azure Analyzer" -ForegroundColor Cyan
+Write-Host "✅ Azure Analyzer v1.0.0 loaded successfully! Use Get-Help Azure Analyzer for usage." -ForegroundColor Green
 $scriptPath = Split-Path -Parent $MyInvocation.MyCommand.Definition
 Get-ChildItem -Path "$scriptPath/functions" -Filter *.ps1 | ForEach-Object { . $_.FullName }
 

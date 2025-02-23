@@ -4,7 +4,7 @@
 
 .DESCRIPTION
    This function returns the EntraID roles associated with the current context user.
-   Part of the AzureLogAnalyzer
+   Part of the Azure Analyzer
 .EXAMPLE
    An example of how to call the function
    For example:

@@ -4,7 +4,7 @@
 
 .DESCRIPTION
    This function returns a table of users and their associated licenses
-   Part of the AzureLogAnalyzer
+   Part of the Azure Analyzer
 .EXAMPLE
    An example of how to call the function
    For example:

@@ -4,7 +4,7 @@
 
 .DESCRIPTION
    This function returns non-OAuth and OAuth applications in the tenant
-   Part of the AzureLogAnalyzer
+   Part of the Azure Analyzer
 .EXAMPLE
    An example of how to call the function
    For example:

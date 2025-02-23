@@ -4,7 +4,7 @@
 
 .DESCRIPTION
    This function returns a list of resource groups in the tenant.
-   Part of the AzureLogAnalyzer
+   Part of the Azure Analyzer
 .EXAMPLE
    An example of how to call the function
    For example:

@@ -4,7 +4,7 @@
 
 .DESCRIPTION
    This function returns a common list of statitics for an azure tenant
-   Part of the AzureLogAnalyzer
+   Part of the Azure Analyzer
 
 Gathers the following:
 
