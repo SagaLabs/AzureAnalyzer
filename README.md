@@ -1,5 +1,5 @@
 <div align="center">
-<img src="./src/logo.png" style="max-width:30%">
+
 <h1>
 ☁ Azure Analyzer
 </h1>
