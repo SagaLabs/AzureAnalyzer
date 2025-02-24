@@ -14,6 +14,32 @@
 
 ---
 
+# Features
+
+### Feature
+
+- [X] Verify permissions.
+- [X] Identify public storage accounts.
+- [X] Gather basic statistics about tenant.
+- [x] Query and list assigned licenses.
+- [x] Count the number of resource groups in the tenant.
+- [x] Determine the number of active subscriptions.
+- [ ] Retrieve and display all global administrators.
+- [X] Identify which logs are enabled in the tenant's diagnostic settings.
+- [ ] List the top five most expensive resources.
+- [X] List amount of running VMs.
+- [ ] Identify accounts with MFA disabled.
+- [ ] Check Azure Policy compliance status.
+- [ ] Review consent settings for enterprise applications.
+- [X] Display list of non-OAuth & OAuth applications.
+- [ ] Display owners or contributors for all resource groups.
+- [ ] List all administrative accounts.
+- [ ] Identify public IPs and their associated resources.
+- [ ] Additional storage-related queries.
+
+
+---
+
 # Getting started
 
 ## Prerequisites
