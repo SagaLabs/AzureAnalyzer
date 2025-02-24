@@ -36,6 +36,7 @@
 - [ ] List all administrative accounts.
 - [ ] Identify public IPs and their associated resources.
 - [ ] Additional storage-related queries.
+- [ ] O365/SharePoint File sharing settings.
 
 
 ---
