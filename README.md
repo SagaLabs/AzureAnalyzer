@@ -38,6 +38,7 @@
 - [ ] Additional storage-related queries.
 - [ ] Display Tenant trust
 - [ ] O365/SharePoint File sharing settings.
+- [ ] Check if Unified Audit log is enabled.
 
 
 ---
