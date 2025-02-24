@@ -36,6 +36,7 @@
 - [ ] List all administrative accounts.
 - [ ] Identify public IPs and their associated resources.
 - [ ] Additional storage-related queries.
+- [ ] Display Tenant trust
 - [ ] O365/SharePoint File sharing settings.
 
 
